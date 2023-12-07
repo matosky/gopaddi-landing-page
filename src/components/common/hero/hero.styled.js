@@ -52,4 +52,15 @@ export const HeroWrap = styled.section`
       }
     }
   }
+
+  @media screen and (max-width: 765px){
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .hero-text{
+      border: 1px solid red;
+      max-width: 100%;
+    }
+  }
 `;
