@@ -42,6 +42,7 @@ export const FooterWrap = styled.footer`
 
       li {
         margin-top: 2rem;
+        font-weight: 200;
         color: #fff;
         font-size: 1.2rem;
       }
