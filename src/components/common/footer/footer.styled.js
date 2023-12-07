@@ -47,7 +47,6 @@ export const FooterWrap = styled.footer`
 
       .column1{
         width: 300px;
-        border: 1px solid blue;
         display: flex;
         flex-direction: column;
         gap: 2rem;
