@@ -10,7 +10,7 @@ export const Travel = () => {
         <FlexibleDiv gap="4rem">
           <div>
           <h3>
-              <span>Request and Approval</span>
+              <span>Travel Expense  </span>
               <span>Management System</span>
             </h3>
             <p>

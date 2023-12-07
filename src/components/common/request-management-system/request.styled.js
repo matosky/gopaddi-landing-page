@@ -37,7 +37,7 @@ export const RequestWrap = styled.section`
  .left-img{
    max-width: 50%;
     img {
-        width: 100%;
+        width: 80%;
         height: 100%;
         object-fit: cover;
       }

@@ -13,7 +13,7 @@ export const Social = () => {
             <img src={rightImg} alt="..."/>
           </div>
           <div>
-            <h3><span>Connect:</span> Your Coperate Social Network</h3>
+            <h3><span>Connect:</span> Your Coperate <br />Social Network</h3>
             <p>
               Explore the incredible potential of international education by
               securing your students admission to prestigious universities

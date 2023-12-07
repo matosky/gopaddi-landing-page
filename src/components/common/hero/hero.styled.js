@@ -5,7 +5,7 @@ export const HeroWrap = styled.section`
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  height: 95vh;
+  height: 88vh;
   padding-bottom: 8rem;
   .hero {
     width: 100%;

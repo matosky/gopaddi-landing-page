@@ -62,12 +62,14 @@ export const UltimateWrap = styled.section`
       width: 100%;
       height: 100%;
       position: absolute;
-      top: 0;
+      top: 4px;
+      left: 30px;
       display: flex;
       align-items: center;
       z-index: 10;
       & h3 {
         width: 100%;
+        margin-top: 2px;
         font-size: 3rem;
         color: #0D6EFD;
         font-weight: 600;
@@ -82,6 +84,7 @@ export const UltimateWrap = styled.section`
         font-weight: 500;
         margin: 1rem 0 2rem 0;
         color: #5E5E5E;
+        text-align: justify;
       }
     }
   }
