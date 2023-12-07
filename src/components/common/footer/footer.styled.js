@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const FooterWrap = styled.footer`
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
   background-color: #4a84d6;
   padding: 3rem 0;
 
@@ -10,6 +11,7 @@ export const FooterWrap = styled.footer`
   }
 
   .top {
+
     .logo {
       & img {
         width: 15%;
@@ -45,6 +47,7 @@ export const FooterWrap = styled.footer`
 
       .column1{
         width: 300px;
+        border: 1px solid blue;
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -59,9 +62,8 @@ export const FooterWrap = styled.footer`
 
         .check{
           display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+          margin: 2rem 0;
+          gap: 1rem;
         }
 
         p{

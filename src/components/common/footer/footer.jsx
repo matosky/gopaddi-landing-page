@@ -75,10 +75,10 @@ export const Footer = () => {
                 information from Aero and agree to the terms of Aero’s Privacy
                 Policy.
               </p>
-              <div>
+            </div>
+            <div>
                 <img src={map} alt="" />
               </div>
-            </div>
           </div>
         </div>
       </Container>
