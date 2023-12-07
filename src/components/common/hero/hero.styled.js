@@ -23,6 +23,54 @@ export const HeroWrap = styled.section`
         font-size: 4rem;
         margin-bottom: 20px 0;
         color: #0D6EFD;
+        position: relative;
+
+        .dot-s{
+          position: relative;
+        }
+
+        .dots{
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          top: 2px;
+          right: -20px;
+          display: flex;
+          transform: rotate(-120deg);
+          justify-content: space-between;
+          & .dot1 {
+            width: 2px;
+            height: 20px;
+            display: block;
+            border-radius: 24px;
+            background-color:  #0D6EFD;
+            position: absolute;
+            left: 50%;
+            top: 3px;
+          }
+          & .dot2 {
+            width: 2px;
+            height: 20px;
+            display: block;
+            background-color:  #0D6EFD;
+            margin-bottom: 10px;
+            border-radius: 24px;
+          transform: rotate(-160deg);
+
+            position: absolute;
+            left: 0;
+          }
+          & .dot3 {
+            width: 2px;
+            height: 20px;
+            border-radius: 24px;
+            display: block;
+          transform: rotate(160deg);
+            background-color:  #0D6EFD;
+            position: absolute;
+            right: 0;
+          }
+        }
       }
 
       h3{

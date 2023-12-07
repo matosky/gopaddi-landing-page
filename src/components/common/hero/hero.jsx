@@ -11,12 +11,17 @@ export const Hero = () => {
           <FlexibleDiv justify="space-between">
             <div className="hero-text">
               <h1>
-                <span>GoBusiness</span>
-                <div className="">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
+                <span>
+                  GoBusines
+                  <span className="dot-s">
+                    s
+                    <div className="dots">
+                      <span className="dot1"></span>
+                      <span className="dot2"></span>
+                      <span className="dot3"></span>
+                    </div>
+                  </span>
+                </span>
               </h1>
               <h3>Go Global with GoBusiness</h3>
               <p>
