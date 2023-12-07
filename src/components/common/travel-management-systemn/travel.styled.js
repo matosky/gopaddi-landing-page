@@ -31,6 +31,7 @@ export const TravelWrap = styled.section`
 
  p{
         font-size: 1.8rem;
+        max-width: 85%;
         font-weight: 500;
         margin: 1rem 0 2rem 0;
       }
