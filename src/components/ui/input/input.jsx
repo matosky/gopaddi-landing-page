@@ -1,10 +1,11 @@
+import { InputStyles } from "./input.styled";
+
 // Example usage in another component
-export const Input = ({type}) => {
+export const Input = ({type, placeholder}) => {
     return (
-      <div>
-        <label htmlFor="username">Username:</label>
-        <Input type={type} id="username" name="username" />
-      </div>
+      <InputStyles>
+        <input type={type} i placeholder={placeholder}  />
+      </InputStyles>
     );
   };
   

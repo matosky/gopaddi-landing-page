@@ -1,33 +1,42 @@
-import { Input } from "../../ui/input/input";
-import { FooterWrap } from "./footer.styled";
-import map from "../../../assets/map.svg"
-import { Container } from "../../ui/app-container/app-container";
-import appLogo from "../../../assets/paddi-header-logo.svg";
+import React from 'react';
+import { Input } from '../../ui/input/input';
+import { FooterWrap } from './footer.styled';
+import map from '../../../assets/map.svg';
+import { Container } from '../../ui/app-container/app-container';
+import appLogo from '../../../assets/logo-white.svg';
 
 const links = [
   {
-    label: "Home",
-    url: "/",
+    label: 'Home',
+    url: '/',
     // icon: faHome,
   },
   {
-    label: "Solutions",
-    url: "/about",
+    label: 'Solutions',
+    url: '/about',
     // icon: faInfoCircle,
   },
   {
-    label: "Products",
-    url: "/contact",
+    label: 'Products',
+    url: '/contact',
     // icon: faEnvelope,
   },
   {
-    label: "Company",
-    url: "/contact",
+    label: 'Company',
+    url: '/contact',
   },
 ];
 
-
-
+function Links({ title, links }) {
+  return (
+    <ul>
+      <h5>{title}</h5>
+      {links.map((link, index) => (
+        <li key={index}>{link.label}</li>
+      ))}
+    </ul>
+  );
+}
 
 export const Footer = () => {
   return (
@@ -39,7 +48,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="bottom">
-          <div>
+          <div className='column1'>
             <p>
               Gopaddi is a travel network that connects and strengthens people’s
               relationships with a world of beautiful, happy people who are able
@@ -51,15 +60,15 @@ export const Footer = () => {
               desires and freely explore a world of limitless possibilities.
             </p>
           </div>
-          <Links title={"Quick liks"} links={links} />
-          <Links title={"Business Links"} links={links} />
-          <Links title={"Business Links"} links={links} />
-          <div>
+          <Links title="Quick Links" links={links} />
+          <Links title="Business Links" links={links} />
+          <Links title="Other Links" links={links} />
+          <div className='last-column'>
             <h5>Subscribe to Our Newsletter</h5>
             <div>
-              <Input type={"text"} placeholder={"Email"} />
+              <Input type="text" placeholder="Email" />
             </div>
-            <div>
+            <div className='check'>
               <Input type="checkbox" />
               <p>
                 By subscribing you are accepting to receive marketing
@@ -67,7 +76,7 @@ export const Footer = () => {
                 Policy.
               </p>
               <div>
-                <img src={map} alt=""  />
+                <img src={map} alt="" />
               </div>
             </div>
           </div>
@@ -75,18 +84,4 @@ export const Footer = () => {
       </Container>
     </FooterWrap>
   );
-
 };
-
-
-function Links ({ title }) {
-  return (
-    <ul>
-      <h5>{title}</h5>
-      {links.map((link) => {
-       return  <li>{link.label}</li>;
-      })}
-    </ul>
-  );
-};
-

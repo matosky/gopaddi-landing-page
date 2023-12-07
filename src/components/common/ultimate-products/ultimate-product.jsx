@@ -8,7 +8,7 @@ export const UlimateProducts = () => {
   return (
     <UltimateWrap>
       <Container>
-        <FlexibleDiv>
+        <FlexibleDiv gap="4rem">
           <div className="left">
             <img className="left-img" src={UltimateLeft} alt="..." />
           </div>

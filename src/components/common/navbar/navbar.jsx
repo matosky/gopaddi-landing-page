@@ -1,24 +1,25 @@
 import { NavbarWrap } from "./navbar.styled";
+import {FaCaretDown} from "react-icons/fa"
 export const links = [
     {
       label: 'Home',
       url: '/',
-      // icon: faHome,
+      icon: <FaCaretDown />,
     },
     {
       label: 'Solutions',
       url: '/about',
-      // icon: faInfoCircle,
+      icon: <FaCaretDown />,
     },
     {
       label: 'Products',
       url: '/contact',
-      // icon: faEnvelope,
+      icon: <FaCaretDown />,
     },
     {
         label: 'Company',
         url: '/contact',
-        // icon: faEnvelope,
+        icon: <FaCaretDown />,
       },
     // Add more links as needed
   ];
@@ -29,9 +30,9 @@ export const NavBar = () => {
           {links.map((link, index) => (
             <li className="navbar-item" key={index}>
               <a href={link.url}>
-                {/* <FontAwesomeIcon icon={link.icon} /> */}
                 {link.label}
               </a>
+              {link.icon}
             </li>
           ))}
         </ul>
