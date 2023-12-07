@@ -68,16 +68,16 @@ export const UltimateWrap = styled.section`
       z-index: 10;
       & h3 {
         width: 100%;
-        font-size: 2.4rem;
+        font-size: 3rem;
         color: #0D6EFD;
         font-weight: 600;
-        line-height: 25.1px;
+        line-height: 40.1px;
         font-weight: 600;
         letter-spacing: -0.0004px;
       }
 
       & p{
-        width: 100%;
+        width: 80%;
         font-size: 1.8rem;
         font-weight: 500;
         margin: 1rem 0 2rem 0;
@@ -85,5 +85,12 @@ export const UltimateWrap = styled.section`
       }
     }
   }
+
+  @media screen and (max-width: 765px) {
+       width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
 `;
