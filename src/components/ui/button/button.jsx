@@ -1,7 +1,7 @@
 import { StyledButton } from "./button.styled";
-const Button = () => {
+const Button = ({text}) => {
     return (
-        <StyledButton>Click me</StyledButton>
+        <StyledButton>{text}</StyledButton>
     );
   };
   

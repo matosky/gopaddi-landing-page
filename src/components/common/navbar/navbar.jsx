@@ -1,25 +1,25 @@
 import { NavbarWrap } from "./navbar.styled";
-import {FaCaretDown} from "react-icons/fa"
+import { FaChevronDown} from "react-icons/fa"
 export const links = [
     {
       label: 'Home',
       url: '/',
-      icon: <FaCaretDown />,
+      icon: <FaChevronDown/>,
     },
     {
       label: 'Solutions',
       url: '/about',
-      icon: <FaCaretDown />,
+      icon: <FaChevronDown/>,
     },
     {
       label: 'Products',
       url: '/contact',
-      icon: <FaCaretDown />,
+      icon: <FaChevronDown/>,
     },
     {
         label: 'Company',
         url: '/contact',
-        icon: <FaCaretDown />,
+        icon: <FaChevronDown/>,
       },
     // Add more links as needed
   ];
@@ -32,7 +32,9 @@ export const NavBar = () => {
               <a href={link.url}>
                 {link.label}
               </a>
+              <span>
               {link.icon}
+              </span>
             </li>
           ))}
         </ul>

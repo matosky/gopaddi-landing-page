@@ -24,7 +24,7 @@ export const Hero = () => {
                 facilis eum iusto eligendi eum magnam voluptas et perspiciatis
                 sequi qui molestiae nostrum
               </p>
-              <Button>Sign Up</Button>
+              <Button text={"Sign Up"} />
             </div>
             <div className="hero-img">
               <img src={HeroImage} alt="heroimg" />
