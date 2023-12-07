@@ -6,16 +6,17 @@ export const TravelWrap = styled.section`
  background: linear-gradient(to bottom, #edf4ff 0%, #edf4ff 100%);
  margin: 4rem 0;
  padding: 3rem 0;
+ border: 2px solid red;
 
  
 
  .right-box{
-    max-width: 50%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 4rem 5rem;
+    /* padding: 4rem 5rem; */
     box-shadow: 0 2px 12px 0 #E8F1FF;
  }
 
@@ -31,13 +32,13 @@ export const TravelWrap = styled.section`
 
  p{
         font-size: 1.8rem;
-        max-width: 85%;
+        max-width: 80%;
         font-weight: 500;
         margin: 1rem 0 2rem 0;
       }
 
  .left-img{
-   max-width: 50%;
+   max-width: 100%;
     img {
         width: 100%;
         height: 100%;

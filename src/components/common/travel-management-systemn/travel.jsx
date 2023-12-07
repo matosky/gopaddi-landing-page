@@ -7,7 +7,7 @@ export const Travel = () => {
   return (
     <TravelWrap>
       <Container>
-        <FlexibleDiv gap="4rem">
+        <FlexibleDiv gap="2rem">
           <div>
           <h3>
               <span>Travel Expense  </span>
