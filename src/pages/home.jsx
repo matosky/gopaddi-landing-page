@@ -14,10 +14,10 @@ const Home = ()=>{
             <Hero />
             <UlimateProducts />
             <Request />
-            <Social />
+            {/* <Social />
             <Travel />
             <Register />
-            <Footer />
+            <Footer /> */}
         </HomeWrap>
     )
 }

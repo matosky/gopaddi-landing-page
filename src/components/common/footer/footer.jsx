@@ -25,16 +25,10 @@ const links = [
     url: "/contact",
   },
 ];
-const Links = ({ title }) => {
-  return (
-    <ul>
-      <h5>{title}</h5>
-      {links.map((link) => {
-       return  <li>{link.label}</li>;
-      })}
-    </ul>
-  );
-};
+
+
+
+
 export const Footer = () => {
   return (
     <FooterWrap>
@@ -81,4 +75,18 @@ export const Footer = () => {
       </Container>
     </FooterWrap>
   );
+
 };
+
+
+function Links ({ title }) {
+  return (
+    <ul>
+      <h5>{title}</h5>
+      {links.map((link) => {
+       return  <li>{link.label}</li>;
+      })}
+    </ul>
+  );
+};
+
