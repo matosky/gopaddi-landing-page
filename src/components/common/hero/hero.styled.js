@@ -61,6 +61,9 @@ export const HeroWrap = styled.section`
     .hero-text{
       border: 1px solid red;
       max-width: 100%;
+
+      
+
     }
   }
 `;
