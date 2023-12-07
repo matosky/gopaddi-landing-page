@@ -1,0 +1,74 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;700&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font size and line height */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem; /* 1.6rem = 16px */
+  line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Remove list styles (bullets/numbers) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default styles for links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default styles for buttons */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+/* Remove default border on some form elements */
+input,
+select,
+textarea {
+  border: none;
+}
+
+/* Remove outline on focused elements */
+:focus {
+  outline: none;
+}
+
+/* Set a common base font family */
+body {
+  font-family: Arial, sans-serif;
+}
