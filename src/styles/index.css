@@ -71,4 +71,5 @@ textarea {
 /* Set a common base font family */
 body {
   font-family: Inter, sans-serif;
+  overflow-x: hidden;
 }
