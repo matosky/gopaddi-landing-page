@@ -22,7 +22,7 @@ export const RegisterWrap = styled.section`
   .cloud1 {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -15px;
   }
   .cloud2 {
     position: absolute;
@@ -55,6 +55,16 @@ export const RegisterWrap = styled.section`
     width: 60%;
     height: 60%;
     position: relative;
+
+    .plane{
+      position: absolute;
+      top: 20%;
+      left: -18%;
+      height: 70%;
+      width: 30%;
+      object-fit: cover;
+      transform: translateX(-50%);
+    }
 
     .fixed-line{
       position: absolute;

@@ -18,6 +18,7 @@ export const Register = () => {
         <img className="cloud6 cloudImg" src={cloud} alt="..." />
         <div className="register-box">
            <div className="fixed-line" />
+           <img className="plane" src={plane} alt="..." />
            <img  src={img} alt="..." />
            <div className="text">
              <h3>
