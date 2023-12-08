@@ -22,4 +22,6 @@ export const HeaderStyles  = styled.header`
         object-fit: cover;
      }
    }
+
+  
 `

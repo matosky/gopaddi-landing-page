@@ -4,7 +4,7 @@ export const TravelWrap = styled.section`
  width: 100%;
  max-width: 100%;
  background: linear-gradient(to bottom, #edf4ff 0%, #edf4ff 100%);
- margin: 4rem 0;
+ margin: 4rem 0 0 0;
  padding: 3rem 0;
 
  

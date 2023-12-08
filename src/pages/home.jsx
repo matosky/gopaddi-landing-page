@@ -7,6 +7,7 @@ import { Social } from "../components/common/social-network/social-network";
 import { Travel } from "../components/common/travel-management-systemn/travel";
 import { UlimateProducts } from "../components/common/ultimate-products/ultimate-product";
 import { HomeWrap } from "./home.styled";
+
 const Home = ()=>{
     return (
         <HomeWrap>

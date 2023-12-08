@@ -4,6 +4,7 @@ import { Profile } from "../../ui/profile/profile";
 import { NavBar } from "../navbar/navbar";
 import { HeaderStyles } from "./header.styled";
 
+
 export const Header = () => {
   return (
     <HeaderStyles>
