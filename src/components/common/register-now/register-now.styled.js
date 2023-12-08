@@ -8,13 +8,14 @@ export const RegisterWrap = styled.section`
   position: relative;
   display: flex;
   align-items: center;
+  margin-bottom: 3rem;
   justify-content: center;
   background: linear-gradient(to bottom, #edf4ff 0%, #fff 80%);
 
 
   .cloudImg {
-    width: 10%;
-    height: 20%;
+    width: 8%;
+    height: 15%;
     object-fit: cover;
   }
 
@@ -31,11 +32,11 @@ export const RegisterWrap = styled.section`
   .cloud3 {
     position: absolute;
     bottom: 10px;
-    left: 30%;
+    left: 10%;
   }
   .cloud4 {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 40%;
   }
 
@@ -73,6 +74,14 @@ export const RegisterWrap = styled.section`
       justify-content: center;
       flex-direction: column;
       gap: 2rem;
+
+      .button{
+        & button{
+          border: 1px solid #0d6efd;
+          color: #0d6efd;
+          background-color: #FFFFFF;
+        }
+      }
 
       h3 {
         color: #0d6efd;

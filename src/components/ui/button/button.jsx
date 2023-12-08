@@ -1,7 +1,7 @@
 import { StyledButton } from "./button.styled";
 const Button = ({text}) => {
     return (
-        <StyledButton>{text}</StyledButton>
+        <StyledButton bg bd>{text}</StyledButton>
     );
   };
   
