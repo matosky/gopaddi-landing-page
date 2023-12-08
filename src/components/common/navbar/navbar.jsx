@@ -4,7 +4,6 @@ export const links = [
     {
       label: 'Home',
       url: '/',
-      icon: <FaChevronDown/>,
     },
     {
       label: 'Solutions',
@@ -32,9 +31,10 @@ export const NavBar = () => {
               <a href={link.url}>
                 {link.label}
               </a>
-              <span>
-              {link.icon}
+              <span className="icon">
+                {link.icon}
               </span>
+              {index===0 && <span className="dot active" />}
             </li>
           ))}
         </ul>

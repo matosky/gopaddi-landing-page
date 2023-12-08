@@ -8,7 +8,7 @@ export const UlimateProducts = () => {
   return (
     <UltimateWrap>
       <Container>
-        <FlexibleDiv gap="4rem">
+          <div className="box-wrap">
           <div className="left">
             <img className="left-img" src={UltimateLeft} alt="..." />
           </div>
@@ -17,10 +17,10 @@ export const UlimateProducts = () => {
               <img className="right-img-bg" src={UltimateRight} alt="..." />
             </div>
             <div className="utimate-desc">
-              <div>
+              <div className="text-wrap">
                 <h3>
-                  Your Ultimate Travel Products <br /> Destination For
-                  Organizations.
+                  <span>Your Ultimate Travel Products</span>
+                  <span> Destination For Organizations.</span>
                 </h3>
                 <p>
                   Explore the incredible potential of international education by
@@ -30,7 +30,7 @@ export const UlimateProducts = () => {
               </div>
             </div>
           </div>
-        </FlexibleDiv>
+          </div>
       </Container>
       <div className="stripe">
         <img className="right-img-stripe" src={UltimateStripe} alt="..." />

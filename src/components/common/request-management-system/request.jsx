@@ -6,8 +6,8 @@ export const Request = () => {
   return (
     <RequestWrap>
       <Container>
-        <FlexibleDiv gap="4rem">
-          <div className="right-box">
+        <div className="row">
+          <div className="left-box">
             <h3>
               <span>Request and Approval</span>
               <span>Management System</span>
@@ -21,7 +21,7 @@ export const Request = () => {
           <div className="left-img">
             <img src={rightImg} alt="..."></img>
           </div>
-        </FlexibleDiv>
+        </div>
       </Container>
     </RequestWrap>
   );

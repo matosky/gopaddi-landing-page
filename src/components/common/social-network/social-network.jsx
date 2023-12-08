@@ -4,23 +4,25 @@ import { Container } from "../../ui/app-container/app-container";
 import { SocialWrap } from "./social-network.styled";
 
 export const Social = () => {
-
   return (
     <SocialWrap>
       <Container>
-        <FlexibleDiv gap="4rem">
+        <div className="row">
           <div className="left-img">
-            <img src={rightImg} alt="..."/>
+            <img src={rightImg} alt="..." />
           </div>
-          <div>
-            <h3><span>Connect:</span> Your Coperate <br />Social Network</h3>
+          <div className="right-box">
+            <h3>
+              <span>Connect:</span> Your Coperate <br />
+              Social Network
+            </h3>
             <p>
               Explore the incredible potential of international education by
               securing your students admission to prestigious universities
               abroad.
             </p>
           </div>
-        </FlexibleDiv>
+        </div>
       </Container>
     </SocialWrap>
   );

@@ -1,14 +1,10 @@
 import { HeroWrap } from "./hero.styled";
 import HeroImage from "../../../assets/hero-right.svg";
-import { Container } from "../../ui/app-container/app-container";
-import { FlexibleDiv } from "../../ui/flexible-div/flexible-div";
 import Button from "../../ui/button/button";
 export const Hero = () => {
   return (
     <HeroWrap>
-      <Container>
         <div className="hero">
-          <FlexibleDiv justify="space-between">
             <div className="hero-text">
               <h1>
                 <span>
@@ -34,9 +30,7 @@ export const Hero = () => {
             <div className="hero-img">
               <img src={HeroImage} alt="heroimg" />
             </div>
-          </FlexibleDiv>
         </div>
-      </Container>
     </HeroWrap>
   );
 };

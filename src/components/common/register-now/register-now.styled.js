@@ -14,8 +14,8 @@ export const RegisterWrap = styled.section`
 
 
   .cloudImg {
-    width: 8%;
-    height: 15%;
+    width: 5%;
+    height: 11%;
     object-fit: cover;
   }
 
@@ -53,8 +53,14 @@ export const RegisterWrap = styled.section`
 
   .register-box {
     width: 60%;
-    height: 60%;
+    height: 80%;
     position: relative;
+
+    @media screen and (max-width: 765px) {
+    margin-top: 100px;
+        width: 100%;
+        margin: 0 auto;
+    }
 
     .plane{
       position: absolute;
@@ -64,6 +70,14 @@ export const RegisterWrap = styled.section`
       width: 30%;
       object-fit: cover;
       transform: translateX(-50%);
+      @media screen and (max-width: 765px) {
+      width: 40%;
+      z-index: 100;
+      height: 20%;
+      top: -10%;
+      left: 50%;
+    }
+
     }
 
     .fixed-line{
@@ -84,21 +98,30 @@ export const RegisterWrap = styled.section`
       justify-content: center;
       flex-direction: column;
       gap: 2rem;
+      width: 100%;
+      max-width: 100%;
 
       .button{
         & button{
-          border: 1px solid #0d6efd;
           color: #0d6efd;
           background-color: #FFFFFF;
+          border: 1px solid #0D6EFD;
         }
       }
 
       h3 {
-        color: #0d6efd;
-        font-size: 2rem;
+        color: #0D6EFD;
+        font-size: 2.5rem;
         font-weight: 500;
         white-space: nowrap;
         letter-spacing: -0.0004px;
+        @media screen and (max-width: 765px) {
+         white-space: wrap;
+         width: 100%;
+         text-align: center;
+         letter-spacing: -0.4px;
+         font-size: 2rem;
+      }
       }
     }
     & img {

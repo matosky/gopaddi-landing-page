@@ -12,20 +12,69 @@ export const FooterWrap = styled.footer`
 
   .top {
     .logo {
-      margin-left: -12px;
+      margin-left: -5px;
       & img {
-        width: 15%;
-        height: 10%;
+        width: 10%;
+        height: 20%;
         object-fit: cover;
       }
+      @media screen and (max-width: 765px) {
+      margin-left: 0;
+      & img {
+        width: 30%;
+        height: 20%;
+        object-fit: cover;
+      }
+    }
     }
   }
 
   .bottom {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 4rem;
-    grid-auto-flow: column;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    @media screen and (max-width: 765px) {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    & .inner-row {
+      width: 100%;
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-auto-flow: column;
+      gap: 2rem;
+
+      @media screen and (max-width: 765px) {
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+      }
+
+      & :nth-child(1) {
+        grid-column: span 2;
+        margin-right: 2rem;
+        @media screen and (max-width: 765px) {
+          grid-column: auto;
+        }
+        & p {
+          margin-bottom: 2rem;
+          font-family: "Poppins", sans-serif;
+          color: #fff;
+          font-size: 1.3rem;
+          font-weight: 700;
+        }
+      }
+
+      & .column {
+        width: fit-content;
+        @media screen and (max-width: 765px) {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
 
     h5 {
       margin-bottom: 2rem;
@@ -33,6 +82,9 @@ export const FooterWrap = styled.footer`
       font-size: 1.4rem;
       font-weight: 700;
       white-space: nowrap;
+      @media screen and (max-width: 765px) {
+          margin-bottom: 0.5rem;
+        }
     }
     ul {
       display: flex;
@@ -43,53 +95,25 @@ export const FooterWrap = styled.footer`
       li {
         margin-top: 2rem;
         font-weight: 200;
+        cursor: pointer;
         color: #fff;
         font-size: 1.2rem;
+        @media screen and (max-width: 765px) {
+          margin-top: 0.5rem;
+        }
       }
-    }
-
-     & .first-column{
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      color: #fff;
-      grid-column: span 8;
-      p{
-        font-size: 1.4rem;
-        font-weight: 700;
-        line-height: 27px;
-      }
-    }
-
-    & .second-column{
-      grid-column: 1rem;
-      max-width: 100px;
-    }
-
-    & .third-column{
-      grid-column: 1rem;
-      max-width: 100px;
-    }
-
-    & .fourth-column{
-      grid-column: 1rem;
-      max-width: 100px;
-      margin-right: 100px;
     }
 
     & .last-column {
       display: flex;
       flex-direction: column;
-      grid-column: span 10;
       justify-content: flex-start;
       align-items: flex-start;
       max-width: 400px;
 
-
-      .input{
+      .input {
         width: 100%;
       }
-
 
       .check {
         display: flex;
@@ -101,8 +125,8 @@ export const FooterWrap = styled.footer`
         color: #fff;
       }
 
-      .map{
-        img{
+      .map {
+        img {
           width: 100%;
           height: 100%;
           object-fit: cover;

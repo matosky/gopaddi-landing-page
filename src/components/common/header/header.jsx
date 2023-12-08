@@ -9,7 +9,7 @@ export const Header = () => {
   return (
     <HeaderStyles>
       <Container>
-        <div className="header">
+        <div className="header-items">
           <div className="logo">
             <img src={appLogo} alt="logo" />
           </div>

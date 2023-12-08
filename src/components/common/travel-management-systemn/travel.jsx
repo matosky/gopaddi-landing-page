@@ -7,10 +7,10 @@ export const Travel = () => {
   return (
     <TravelWrap>
       <Container>
-        <FlexibleDiv gap="2rem">
-          <div>
-          <h3>
-              <span>Travel Expense  </span>
+        <div className="row">
+          <div className="left-box">
+            <h3>
+              <span>Travel Expense </span>
               <span>Management System</span>
             </h3>
             <p>
@@ -19,10 +19,10 @@ export const Travel = () => {
               abroad.
             </p>
           </div>
-          <div className="left-img">
+          <div className="right">
             <img src={rightImg} alt="..."></img>
           </div>
-        </FlexibleDiv>
+        </div>
       </Container>
     </TravelWrap>
   );

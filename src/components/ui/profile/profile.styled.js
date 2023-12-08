@@ -8,9 +8,9 @@ export const ProfileWrap = styled.div`
   justify-content: space-between;
   align-items: center;
   border-radius: 24px;
-  gap: 4rem;
-  border: 2px solid #eee;
-  padding: 0 0.3rem;
+  gap: 1rem;
+  border: 0.1px solid #000;
+  padding: 0 1rem;
 
   .img{
     width: 20px;
@@ -27,6 +27,13 @@ export const ProfileWrap = styled.div`
   span{
     display: block;
     margin: 0.2rem;
+    letter-spacing: -0.004;
+    font-size: 1.5rem;
+  }
+
+  .icon{
+    font-weight: 100;
+    opacity: 0.7;
   }
 
 `

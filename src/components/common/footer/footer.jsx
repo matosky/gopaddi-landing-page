@@ -47,27 +47,30 @@ export const Footer = () => {
             <img src={appLogo} alt="logo" />
           </div>
         </div>
-        <div className="bottom">
-          <div className="column first-column">
-            <p>
-              Gopaddi is a travel network that connects and strengthens people’s
-              relationships with a world of beautiful, happy people who are able
-              to reach out for their dreams and be who they want to be.
-            </p>
-            <p>
-              This network is a community of individuals, families, and
-              organisations who have chosen to take control of their travel
-              desires and freely explore a world of limitless possibilities.
-            </p>
-          </div>
-          <div className="column second-column">
-            <Links title="Quick Links" links={links} />
-          </div>
-          <div className="column third-column">
-            <Links title="Other Links" links={links} />
-          </div>
-          <div className="column fourth-column">
-            <Links title="Business Links" links={links} />
+        <div className="bottom row">
+          <div className="inner-row">
+            <div className="column first-column">
+              <p>
+                Gopaddi is a travel network that connects and strengthens
+                people’s relationships with a world of beautiful, happy people
+                who are able to reach out for their dreams and be who they want
+                to be.
+              </p>
+              <p>
+                This network is a community of individuals, families, and
+                organisations who have chosen to take control of their travel
+                desires and freely explore a world of limitless possibilities.
+              </p>
+            </div>
+            <div className="column">
+              <Links title="Quick Links" links={links} />
+            </div>
+            <div className="column">
+              <Links title="Other Links" links={links} />
+            </div>
+            <div className="column">
+              <Links title="Business Links" links={links} />
+            </div>
           </div>
           <div className="column last-column">
             <h5>Subscribe to Our Newsletter</h5>

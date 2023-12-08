@@ -36,6 +36,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+footer{
+  font-family: 'Poppins', sans-serif;
+}
+
 /* Remove list styles (bullets/numbers) */
 ul,
 ol {
@@ -54,6 +58,7 @@ input,
 select,
 textarea {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Remove default border on some form elements */

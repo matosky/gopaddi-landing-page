@@ -1,5 +1,7 @@
-import { FlexibleDiv } from "../../ui/flexible-div/flexible-div";
 import plane from "../../../assets/plane.svg";
+import line1 from "../../../assets/line1.svg";
+import line2 from "../../../assets/line2.svg";
+import line3 from "../../../assets/line3.svg";
 import cloud from "../../../assets/cloud.svg";
 import img from "../../../assets/register-right.svg";
 

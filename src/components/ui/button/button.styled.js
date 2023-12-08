@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const StyledButton = styled.button`
-  padding: 14px 32px;
-  font-size: 1.3rem;
+  padding: 10px 32px;
+  font-size: 1.6rem;
   background-color: #0D6EFD;
-  color: #fff;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -13,6 +12,11 @@ export const StyledButton = styled.button`
 
   &:hover {
     background-color: #0056b3;
+  }
+
+
+  @media screen and (max-width: 765px) {
+   font-size: 1.2rem;
   }
 
  

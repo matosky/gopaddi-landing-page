@@ -7,9 +7,14 @@ export const HeaderStyles  = styled.header`
    display: flex;
    align-items: center;
    justify-content: center;
+   position: sticky;
+   top: 0;
+   z-index: 9999;
+   background-color: #fff;
 
 
-   .header{
+   .header-items{
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
