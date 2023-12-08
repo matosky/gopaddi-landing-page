@@ -26,7 +26,7 @@ export const RegisterWrap = styled.section`
   }
   .cloud2 {
     position: absolute;
-    top: -10px;
+    top: -20px;
     right: 50%;
   }
   .cloud3 {
