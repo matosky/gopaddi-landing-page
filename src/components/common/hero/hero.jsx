@@ -28,7 +28,7 @@ export const Hero = () => {
               <Button text={"Sign Up"} />
             </div>
             <div className="hero-img">
-              <img src={HeroImage}  alt="hero" />
+              <img src={HeroImage} loading="lazy"  alt="hero" />
             </div>
         </div>
     </HeroWrap>
